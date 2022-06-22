@@ -10,4 +10,4 @@ Repository for sparo hm1 (hand-held mapping v1) sensor drivers
 * IMU
     * Microstrain 3dm-gx5-25
 * GPS
-    * 
+    * comming soon
