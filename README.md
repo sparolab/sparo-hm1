@@ -11,10 +11,9 @@ Repository for sparo hm1 (hand-held mapping v1) sensor drivers
     * Microstrain 3dm-gx5-25 (+ MSCL package )
 * GPS
     * comming soon
-
+<br/><br/><br/>
 
 ### 0. make your own workspace
-#### SPARO Robot System
 1. make workspace
 ```bash
 mkdir -p ~/(your_workspace)/src
@@ -26,7 +25,7 @@ catkin_make
 cd ~/(your_workspace)/src
 git clone --recurse-submodules https://github.com/hwan0806/sparo-hm1.git
 ```
-
+<br/>
 
 ### 1. Camera setup
 #### Intel Realsense D455
@@ -45,25 +44,19 @@ git checkout `git tag | sort -V | grep -P "^2.\d+\.\d+" | tail -1`
 ```bash
 git switch -
 ```
+<br/><br/>
 
 ### 2. LiDAR setup
 #### Ouster OS1
-0. move to ouster directory
-```bash
-cd ouster_example
-```
 1. build
 ```bash
+cd ouster_example
 catkin_make
 ```
-
+<br/><br/>
 
 ### 3. IMU setup
 #### Microstain gx5-25
-0. move to imu directory
-```bash
-cd microstrain_inertial
-```
 1. get submodules
 ```bash
 git submodule init && git submodule update --recursive
