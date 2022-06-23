@@ -1,0 +1,12 @@
+[submodule "velodyne"]
+	path = velodyne
+	url = https://github.com/sparolab/velodyne.git
+[submodule "microstrain_inertial"]
+	path = microstrain_inertial
+	url = https://github.com/hwan0806/microstrain_inertial.git
+[submodule "ouster_example"]
+	path = ouster_example
+	url = https://github.com/hwan0806/ouster_example.git
+[submodule "realsense-ros"]
+	path = realsense-ros
+	url = https://github.com/hwan0806/realsense-ros.git
