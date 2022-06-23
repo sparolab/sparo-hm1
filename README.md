@@ -48,11 +48,7 @@ git switch -
 
 ### 2. LiDAR setup
 #### Ouster OS1
-1. build
-```bash
-cd ouster_example
-catkin_make
-```
+* nothing to do
 <br/><br/>
 
 ### 3. IMU setup
